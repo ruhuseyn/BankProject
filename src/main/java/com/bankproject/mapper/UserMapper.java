@@ -1,4 +1,9 @@
 package com.bankproject.mapper;
 
-public class UserMapper {
+import com.bankproject.dtos.UserDto;
+import com.bankproject.entities.User;
+
+public interface UserMapper {
+
+    User userDtoToUser(UserDto userDto);
 }
