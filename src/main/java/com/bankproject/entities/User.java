@@ -29,7 +29,8 @@ public class User {
     String loanPurposes;
     @Column(name = "credit_amount")
     Double creditAmount;
-
+    @Column(name = "education")
+    String education;
     @Column(name = "loan_rate")
     Double loanRate;
     @Column(name = "credit_status")

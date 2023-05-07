@@ -13,6 +13,8 @@ public record UserDto (
 
     String loanPurposes,
 
-    Double creditAmount
+    Double creditAmount,
+
+    String education
 ){
 }
